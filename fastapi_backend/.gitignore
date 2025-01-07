@@ -1,0 +1,64 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables
+.env
+*.env
+
+# Logs
+*.log
+logs/
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Cache files
+*.cache
+.cache/
+pip-wheel-metadata/
+*.egg-info/
+
+# Migrations
+migrations/
+
+# Static and media files
+static/
+media/
+
+# Test outputs
+htmlcov/
+*.cover
+.coverage
+
+# FastAPI specific (optional)
+*.db   # If using SQLite
+__pypackages__/  # If using PEP 582 (optional)
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Python build files
+build/
+dist/
+*.egg
+*.egg-info
